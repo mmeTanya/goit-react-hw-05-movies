@@ -1,17 +1,12 @@
 import styled from 'styled-components';
 
 export const StyledSection = styled.section`
-  display: flex;
   aling-items: center;
   margin: 20px auto;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 `;
-
-/* export const StyledDiv = styled.div`
-  display: flex;
-  aling-items: center;
-  margin: 20px auto;
-  background-color: beige;
-`; */
 
 export const StyledImage = styled.img`
   display: block;
@@ -40,4 +35,5 @@ export const StyledText = styled.p`
   font-weight: 500;
   font-size: 27px;
   line-height: 27px;
+  text-align: justify;
 `;

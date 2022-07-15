@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledSection = styled.section`
-  display: flex;
-  aling-items: center;
-  margin: 20px auto;
+  margin: 20px 0;
   padding-left: 30px;
 `;
 
@@ -26,4 +24,5 @@ export const StyledText = styled.p`
   font-weight: 500;
   font-size: 21px;
   line-height: 23px;
+  text-align: justify;
 `;
